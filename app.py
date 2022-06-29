@@ -1,4 +1,3 @@
-from tabnanny import check
 from flask import Flask, render_template, request,redirect
 import os
 import otpgenerator as og
