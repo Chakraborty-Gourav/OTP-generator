@@ -14,7 +14,7 @@ def generate():
     return otp
 
 def establisconn(  name, to, otp):
-    body = str("HELLO "+name+" YOUR OTP IS :"+otp+". IF YOU DIDN'T ASK FOR THIS, PLEASE IGNORE.")
+    body = str("Hello "+name+" your OTP is :"+otp+". Do not share your OTP with anyone else. If you didn't request for an otp, ignore this.")
     subject = 'OTP GENERATOR'
     message = MIMEMultipart()
     message['From'] = from_
