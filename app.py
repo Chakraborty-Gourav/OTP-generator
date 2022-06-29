@@ -62,9 +62,6 @@ def result():
         return render_template("success.html",)
     else:
         return render_template("index.html", image=im,failed='s')
-    #return render_template("result.html", toprint=thisotp)
-
-#def resend():
 
 
 if __name__ == '__main__':

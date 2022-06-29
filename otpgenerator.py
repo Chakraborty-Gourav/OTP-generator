@@ -32,4 +32,3 @@ def send(text, to):
     mail.login(from_,your_pass)
     mail.sendmail(from_,to, text)
     mail.close()
-    #print('Mail had been sent succesfully')
